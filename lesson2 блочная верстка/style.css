@@ -1,0 +1,66 @@
+/* общие стили */
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  margin: 0;
+}
+.contaner {
+  width: 1140px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+header {
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
+.main-menu {
+  background-color: darkcyan;
+}
+.main-menu-list {
+  height: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* стили контентной части */
+.content {
+  display: flex;
+}
+section {
+  background-color: darkgrey;
+  flex: 4;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-item {
+  background-color: darksalmon;
+  padding: 15px;
+  margin: 10px;
+  width: calc(50% - 20px);
+  box-sizing: border-box;
+}
+.sidebar-right {
+  background-color: darkseagreen;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+footer {
+  background-color: deeppink;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news {
+  background-color: saddlebrown;
+}
+font-family: "Montserrat", sans-serif;
