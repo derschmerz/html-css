@@ -1,0 +1,83 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1920px;
+  height: 1410px;
+}
+header {
+  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-evenly;
+  width: 1920px;
+  height: 80px;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.assortment {
+  width: 50%;
+  margin: 0 25% 0 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 22px;
+}
+.item {
+  font-size: 16px;
+  padding: 15px 40px;
+  margin: 10px;
+  text-align: center;
+  width: 50%;
+  box-sizing: border-box;
+}
+.topText {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px;
+}
+.quoteAuthor {
+  font-size: 24px;
+}
+.quote {
+  height: 280px;
+  text-align: center;
+  align-items: center;
+  border-top: 1px solid #ffb5b5;
+  border-bottom: 1px solid #ffb5b5;
+  font-style: italic;
+  font-weight: 300;
+  color: #ff445a;
+  font-size: 31px;
+  width: 50%;
+  margin: 0 25% 0 25%;
+  padding: 100px 0;
+  box-sizing: border-box;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.poem {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  margin: 5% 25% 5% 25%;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  background-color: #ffb5b5;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 1;
+  color: #ffff;
+  width: 100%;
+}
