@@ -59,10 +59,38 @@ ul {
     font-weight: 500;
 
 }
-/* стили баннера */
+/* стили баннер */ 
 .banner-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.banner-info-offer btn {
+  display: flex;
+  justify-content:space-between;
+  text-align: center;
+  font-size: 16px;
+  
+  }
+.btn {
+  border: 1px solid #3A95FF;
+  text-decoration: none;
+  line-height: 70px;
+  font-weight: 600;
+}
+.btn-pimary {
+  background-color: #3A95FF;
+  color: white;
+  padding: 17px 26px;
+}
+.btn-secondary {
+  padding: 17px 51px;
+  margin-left: 37px;
+  
+}
+h1 {
+  font-size: 52px;
+}
+h1 a {
+  color: #3A95FF;
+}
