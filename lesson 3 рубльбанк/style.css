@@ -98,15 +98,17 @@ h1 a {
   justify-content: space-between;
   flex: 4;
   flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 
 .pr {
   display: flex;
   justify-content: space-between;
-  margin: 30px 15px;
-  width: calc(50% - 30px);
+  margin: 30px 0 30px 0;
+  width: calc(50% - 15px);
   box-sizing: border-box;
   background-color: #eff2f5;
+  border-radius: 8px;
 }
 .offers p {
   font-weight: 400;
@@ -146,6 +148,8 @@ h1 a {
     5px 5px 15px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   box-sizing: border-box;
+  margin-top: 137px;
+  margin-bottom: 137px;
 }
 .credit-card-top {
   display: flex;
@@ -160,6 +164,7 @@ h1 a {
   justify-content: space-between;
   text-align: center;
   padding-right: 100px;
+  margin-bottom: 40px;
 }
 .sidebar {
   display: flex;
@@ -169,6 +174,8 @@ h1 a {
   align-items: center;
   font-weight: 600;
   font-size: 26px;
+  margin-top: 137px;
+  margin-bottom: 137px;
 }
 .ci {
   width: 360px;
@@ -178,7 +185,7 @@ h1 a {
     5px 5px 25px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   margin-left: 30px;
-
+  padding-left: 34px;
   position: relative;
 }
 .card-info h1 {
@@ -189,6 +196,11 @@ h1 a {
   font-size: 30px;
   line-height: 19px;
   font-weight: 500;
+  
+}
+.sum p{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .inf {
   font-size: 18px;
@@ -197,8 +209,13 @@ h1 a {
   color: #424242;
   padding: 0 30px;
 }
+.inf p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .lmt {
-  padding-right: 15px;
+  width: 157px;
+  height: 97px;
 }
 
 .bluearrow {
