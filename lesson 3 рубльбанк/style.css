@@ -226,3 +226,39 @@ h1 a {
 .btn-secondary {
   color: #3a95ff
 }
+
+/* Стили блока как получить карту */
+
+.sequence {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 1003px;
+  height: 280px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+.getCard h2{
+  margin-top: 70px;
+  font-size: 40px;
+}
+
+/* Стили футтера */
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.footer-right {
+  margin-left: 100px;
+  width: 360px;
+}
+footer {
+  background-color: #eff2f5;
+  padding-top: 37px;
+  padding-bottom: 29px;
+}
+.footer-info a {
+  font-weight: 600;
+}
